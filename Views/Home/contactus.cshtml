@@ -1,0 +1,128 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="/css/StyleSheet.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+            <img src="/img/mail.png" alt="">
+        </div>
+<div>
+   <a href="mailto:info@hayamotoenterprises.com" target="blank"><h5>info@hayamotoenterprises.com</h5></a>
+</div>
+<div>
+    <img src="/img/phone.png" alt="">
+</div>
+<div>
+    <a href="" target="blank"><h5>+92-3311427734</h5></a>
+ </div>
+ 
+ <div>
+        <a href="https://web.facebook.com/profile.php?id=100026446246041"  ><img class=" pad" src="img/fb.png" alt=""></a>
+        <a href="https://www.instagram.com/hayamoto_enterprises/?hl=en"  ><img src="img/in.png" alt=""></a>
+        <a href="#"><img src="/img/twitter.png" alt=""></a>
+    </div>
+  <div>
+      <a href="login.html"><img class="pad1" src="/img/act.png" alt=""><h4>Login</h4> </a>  
+  </div>
+  <HR></HR>
+    </section>
+    <br><br>
+    <section>
+        <div id="logo">
+            <a href="index.html"><img src="/img/logo/logo.png" alt=""></a>
+        </div>  
+  <div  class="pad2"><input id ="p"type="text" placeholder="What do you Need?"> </div>
+  <div>
+     <button><img class="search" src="/img/search.png" alt=""></button> </div>
+    </section>
+     
+ <br><br>
+<section >
+    <div id="navbar">
+        <ul>
+            <li><a href="@Url.Action("Index","Home")">Home</a></li>
+            <li><a href="@Url.Action("aboutus","Home")">About Us</a></li>
+            <li><a href="">Categories</a>
+            <ul>
+                <li><a href="@Url.Action("Casualwear","Home")">Casusual Wear</a></li>
+                <li><a href="@Url.Action("MartialArtsuniforms","Home")">MartialArts Uniforms</a></li>
+                <li><a href="">Sports Wear</a></li>
+            </ul></li>
+            <li><a href="contactus.html">Contact US</a></li>
+        </ul>
+    </div>
+</section>
+<section>
+    <div style="margin-left: 20px">
+		<img src="/img/map.jpeg" height="300px" width="1200px">
+	</div>
+	<div style="margin-left: 20px">
+		<h2>CONTACT US</h2>
+		<P>We are always online for your inquiries.Fill out the form and we’ll be touch as soon as possible..</P>
+		<label >Your Name (required)</label> 
+		<input type="text" name="Name" style="width: 1200px; height: 25px;border-color: lightgrey; margin-bottom: 20px"><br><br>
+		<label>Your Email(required)</label><br>
+		<input type="Email" name="email" style="width: 1200px; height: 25px;border-color: lightgrey; margin-bottom: 20px"><br><br>
+        <label>Subject</label><br>
+		<input type="text" name="Subject" style="width: 1200px; height: 25px;border-color: lightgrey; margin-bottom: 20px"><br><br>
+		<label>Your Message</label><br>
+		<textarea name="your Message" cols="50" rows="10" style="border-color: lightgrey"></textarea>
+		<br><br>
+		<input type="button" value="send" style="background-color: red">
+	</div>
+
+</section>
+    <section id="footer">
+        <div class="background">
+            <div class="adjust">
+                <h5>ABOUT US</h5>
+                <p> we are manufacturers and worldwide
+                exporters of quality SPorts Wear,Casual Wear,Martial Uniform,Fitness Wear,Fight Wear, Kevlar Garments, Motorbike Garments and Boxing Products,We uses the highest technology, quality materials and skilled workforce to mnaufacture the hgh quality products.We have strong desire to supply our customer with better quality products and service . Customers ideas,design and sample are welcome.We turn customer ideas into reality.. </p>
+            </div>
+            <div class="adjust">
+                <h5> USEFUL LINKS</h5>
+                <ul class="remove-bullets">
+                    <a href="#"><li>Home </li></a>
+                    <a href="#"><li>About Us </li></a>
+                    <a href="#"><li>Contact Us </li></a>
+                    <a href="#"><li>Privacy Policy </li></a>
+                    <a href="#"><li>Terms&Conditions </li></a>
+                </ul>
+            </div>
+            <div class="adjust">
+                <h5> WHY US</h5>
+                <ul class="bullets">
+                    <a href="#"><li>24 Hours Online </li></a>
+                    <a href="#"><li>Free Consultant </li></a>
+                    <a href="#"><li>Professional Manufactures </li></a>
+                    <a href="#"><li>Professional Manufactuters </li></a>
+                    <a href="#"><li>Shipping on Time </li></a>
+                </ul>
+            </div>
+            <div class="adjust">
+                <h5>CONTACT INFORMATION</h5>
+                <ul class="remove-bullets">
+                    <li>Address: will be written</li>
+                    <li>Tel 1: will be written</li>
+                    <li>Tel 2:  will be written</li>
+                    <li>Mail 1:<a href="mailto:azharsahi037@gmail.com">azharsahi037@gmail.com</a></li>
+                    <li>Mail 2:<a href="mailto:19101001-037@uskt.edu.pk">19101001-037@uskt.edu.pk</a></li>
+                </ul>
+            </div>
+            <hr style="border-color: white; border-width: 1px">
+            <h5 style="color: white; text-align: center; padding-bottom: 28px;">Copyright 2020 All rights reserved</h3>
+            
+        </div>
+    </section>
+</body>
+</html>
